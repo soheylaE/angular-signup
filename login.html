@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login from</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="center">
+       <img src="logo.jpg" class="logo">
+      <h1>ورود</h1>
+      <from method="post">
+      <div class="login-page">
+         <div class="txt_field">
+            <input type="text" id="username" maxlength="10" required>
+            <span></span>
+            <label>نام کاربری</label>
+         </div>
+         <div class="txt_field">
+            <input type="password" id="password" maxlength="8" required>
+            <span></span>
+            <label>رمز عبور</label>
+         </div>
+         <div class="pass">رمز عبور خود را فراموش کرده اید؟</div>
+         <div class="button">
+            <button class="button__enter" onclick="validation()">ورود</button>
+            <button class="button__exit">بازگشت</button>
+         </div>
+         <div class="signup_link">
+            عضو نیستید؟<a href="#">ثبت نام</a>
+         </div>
+         <!--</div>-->
+      </div>
+      </from>
+   </div>
+   <div class="modal">لطفا اطلاعات درست را وارد کنید</div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
